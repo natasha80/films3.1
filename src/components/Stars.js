@@ -12,7 +12,7 @@ const defaultProps = {
 
 const Stars = (props) => {
   let li = [];
-  if (!(props.count >= 0 && props.count <= 5)) {
+  if (!props.count) {
     return null;
   }  
     
